@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">wifidirect</string>
+    <string name="wifi_on">Wifi On</string>
+    <string name="discover">discover</string>
+    <string name="message">Message</string>
+    <string name="connection_status">Connection Status</string>
+</resources>
