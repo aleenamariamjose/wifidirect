@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.google.aleenajose.wifidirect">
 
+    <!--  Wi-Fi P2P doesn't require an internet connection,
+    but it does use standard Java sockets, which requires the INTERNET permission. -->
+
     <uses-permission
         android:required="true"
         android:name="android.permission.ACCESS_COARSE_LOCATION"/>
